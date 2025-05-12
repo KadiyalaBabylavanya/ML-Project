@@ -3,4 +3,8 @@ numpy
 scikit-learn
 matplotlib
 seaborn
--e .
+catboost
+xgboost
+lightgbm
+
+#-e . to build the package

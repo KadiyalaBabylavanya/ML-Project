@@ -1,7 +1,7 @@
 # If something goes wrong, it tells your program exactly what to do instead of just stopping. It’s like saying, “If this happens, don’t panic—do this instead!"
 
 import sys
-import logging
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb=error_detail.exc_info() 
@@ -18,3 +18,4 @@ class CustomException(Exception):
 
     def __str__(self):
         return self.error_message
+
