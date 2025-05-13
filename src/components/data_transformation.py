@@ -1,5 +1,6 @@
 #It will do feature engineering , data cleaning and converting the data etc..
 #sys is mainly used for error handling and logging
+#A sparse matrix is a special way of storing data where most of the values are zero. Instead of saving every value (including all the zeros), it only saves the locations and values of the non-zero elements. This saves memory and speeds up calculations when you have a lot of zeros.
 import sys
 from dataclasses import dataclass
 import numpy as np
@@ -97,3 +98,4 @@ class DataTransformation:
             )
         except Exception as e:
             raise CustomException(e,sys)
+        
