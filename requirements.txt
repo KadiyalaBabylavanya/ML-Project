@@ -6,5 +6,6 @@ seaborn
 catboost
 xgboost
 lightgbm
+dill
 
 #-e . to build the package
