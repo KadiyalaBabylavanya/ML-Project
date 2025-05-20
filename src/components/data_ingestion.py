@@ -13,6 +13,8 @@ from src.components.data_transformation import DataTransformationConfig
 from  src.components.model_trainer import ModelTrainerConfig
 from  src.components.model_trainer import ModelTrainer
 
+import warnings
+warnings.filterwarnings("ignore") 
 
 
 @dataclass
